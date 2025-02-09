@@ -1,0 +1,30 @@
+﻿@model List<BreadcrumbItem>
+
+<div class="breadcrumb-section breadcrumb-bg-color--golden">
+    <div class="breadcrumb-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="breadcrumb-title">@Model.LastOrDefault()?.Title</h3>
+                    <div class="breadcrumb-nav breadcrumb-nav-color--black breadcrumb-nav-hover-color--golden">
+                        <nav aria-label="breadcrumb">
+                            <ul>
+                                @foreach (var item in Model)
+                                {
+                                    if (item.IsActive)
+                                    {
+                                        <li class="active" aria-current="page">@item.Title</li>
+                                    }
+                                    else
+                                    {
+                                        <li><a href="@item.Url">@item.Title</a></li>
+                                    }
+                                }
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
