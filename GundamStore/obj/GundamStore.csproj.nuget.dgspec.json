@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\nopbai\\GundamStore\\GundamStore\\GundamStore.csproj": {}
+    "D:\\GundamStore\\GundamStoreLayout\\GundamStore\\GundamStore.csproj": {}
   },
   "projects": {
-    "C:\\nopbai\\GundamStore\\GundamStore\\GundamStore.csproj": {
+    "D:\\GundamStore\\GundamStoreLayout\\GundamStore\\GundamStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\nopbai\\GundamStore\\GundamStore\\GundamStore.csproj",
+        "projectUniqueName": "D:\\GundamStore\\GundamStoreLayout\\GundamStore\\GundamStore.csproj",
         "projectName": "GundamStore",
-        "projectPath": "C:\\nopbai\\GundamStore\\GundamStore\\GundamStore.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\nopbai\\GundamStore\\GundamStore\\obj\\",
+        "projectPath": "D:\\GundamStore\\GundamStoreLayout\\GundamStore\\GundamStore.csproj",
+        "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
+        "outputPath": "D:\\GundamStore\\GundamStoreLayout\\GundamStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -52,7 +52,7 @@
           "dependencies": {
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
