@@ -18,15 +18,15 @@
 	<div class="content">
 		<div class="breadcrumb-wrapper breadcrumb-contacts">
 			<div>
-				<h1>Vendor List</h1>
+				<h1>Danh sách nhà cung cấp</h1>
 				<p class="breadcrumbs">
-					<span><a href="index.html">Home</a></span>
-					<span><i class="mdi mdi-chevron-right"></i></span>Vendor
+					<span><a href="@Url.Action("Index","Home")">Trang chủ</a></span>
+					<span><i class="mdi mdi-chevron-right"></i></span>Nhà cung cấp
 				</p>
 			</div>
 			<div>
 				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addVendor">
-					Add Vendor
+					Thêm nhà cung cấp
 				</button>
 			</div>
 		</div>
@@ -38,14 +38,14 @@
 							<table id="responsive-data-table" class="table">
 								<thead>
 									<tr>
-										<th>Profile</th>
-										<th>Name</th>
+										<th>Ảnh đại diện</th>
+										<th>Tên</th>
 										<th>Email</th>
-										<th>Product</th>
-										<th>Total Sell</th>
-										<th>Status</th>
-										<th>Join On</th>
-										<th>Action</th>
+										<th>Sản phẩm</th>
+										<th>Số lượng bán</th>
+										<th>Trạng thái</th>
+										<th>Ngày bắt đầu</th>
+										<th>Hành động</th>
 									</tr>
 								</thead>
 
@@ -2528,26 +2528,26 @@
 				<div class="modal-content">
 					<form>
 						<div class="modal-header px-4">
-							<h5 class="modal-title" id="exampleModalCenterTitle">Add New Vendor</h5>
+							<h5 class="modal-title" id="exampleModalCenterTitle">Thêm nhà cung cấp</h5>
 						</div>
 
 						<div class="modal-body px-4">
 							<div class="form-group row mb-6">
-								<label for="coverImage" class="col-sm-4 col-lg-2 col-form-label">Vendor Image</label>
+								<label for="coverImage" class="col-sm-4 col-lg-2 col-form-label">Ảnh</label>
 
 								<div class="col-sm-8 col-lg-10">
 									<div class="custom-file mb-1">
 										<input type="file" class="custom-file-input" id="coverImage" required>
-										<label class="custom-file-label" for="coverImage">Choose file...</label>
+										<label class="custom-file-label" for="coverImage">Chọn file...</label>
 										<div class="invalid-feedback">Example invalid custom file feedback</div>
 									</div>
 								</div>
 							</div>
 
 							<div class="row mb-2">
-								<div class="col-lg-6">
+								<div class="col-lg-6"> 
 									<div class="form-group">
-										<label for="firstName">First name</label>
+										<label for="firstName">Tên</label>
 										<input type="text" class="form-control" id="firstName" value="John">
 									</div>
 								</div>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GundamStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a297e46b67f56e5429b121f75a54866dc3aa3a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1238179d75614dfaf9c2310e4511f58d4f1410d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("GundamStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GundamStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
